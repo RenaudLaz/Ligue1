@@ -1,0 +1,15 @@
+.head__ligue1 {
+  height: 9em;
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+}
+.head__ligue1--logo {
+  height: 7em;
+}
+
+.body {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
