@@ -1,0 +1,174 @@
+a {
+    text-decoration: none;
+    color: black;
+    &:hover{
+        scale: 1.2;
+    }
+}
+.nav__equipes{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: 3em 3em 3em 3em 3em; 
+    gap: 4px 4px; 
+}
+
+.club1{
+    text-align: center;
+    @include grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.club2{
+    text-align: center;
+    @include grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.club3{
+    text-align: center;
+    @include grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.club4{
+    text-align: center;
+    @include grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.club5{
+    text-align: center;
+    @include grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.club6{
+    text-align: center;
+    @include grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.club7{
+    text-align: center;
+    @include grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.club8{
+    text-align: center;
+    @include grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.club9{    
+    text-align: center;
+    @include grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.club10{
+    text-align: center;
+    @include grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.club11{
+    text-align: center;
+    @include grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.club12{
+    text-align: center;
+    @include grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.club13{
+    text-align: center;
+    @include grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.club14{
+    text-align: center;
+    @include grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.club15{
+    text-align: center;
+    @include grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.club16{
+    text-align: center;
+    @include grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.club17{
+    text-align: center;
+    @include grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.club18{
+    text-align: center;
+    @include grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.club19{
+    text-align: center;
+    @include grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.club20{
+    text-align: center;
+    @include grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
