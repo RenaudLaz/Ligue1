@@ -156,3 +156,13 @@ a {
     grid-row-start: 5;
     grid-row-end: 5;
 }
+
+
+@media all and (max-width: 768px) {
+    .nav__equipes{
+        display: grid; 
+        grid-template-columns: 90%; 
+        grid-template-rows: 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em 3em; 
+        gap: 30px 10px; 
+    }
+}
