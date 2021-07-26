@@ -20,18 +20,33 @@ time, mark, audio, video {
 }
 
 .logo--club {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.3em;
+  height: 1.3em;
 }
 
 .head__ligue1 {
-  height: 10em;
+  height: 11em;
   width: 100%;
   text-align: center;
-  background-color: yellow;
+  background-color: #081C3D;
+  margin-bottom: 2em;
+  color: white;
 }
 .head__ligue1--logo {
+  padding-top: 1em;
   height: 8em;
+}
+.head__ligue1--text {
+  font-weight: bold;
+  align-items: center;
+}
+
+.eats {
+  color: #00C16C;
+}
+
+body {
+  background-color: #CCFB36;
 }
 
 a {
@@ -39,20 +54,22 @@ a {
   color: black;
 }
 a:hover {
-  scale: 1.2;
+  transform: scale(1.05);
 }
 
 .nav__equipes {
+  justify-content: center;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 24% 24% 24% 24%;
   grid-template-rows: 3em 3em 3em 3em 3em;
-  gap: 4px 4px;
+  gap: 30px 10px;
 }
 
 .club1 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 1;
@@ -62,9 +79,10 @@ a:hover {
 }
 
 .club2 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 2;
@@ -74,9 +92,10 @@ a:hover {
 }
 
 .club3 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 3;
@@ -86,9 +105,10 @@ a:hover {
 }
 
 .club4 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 4;
@@ -98,9 +118,10 @@ a:hover {
 }
 
 .club5 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 1;
@@ -110,9 +131,10 @@ a:hover {
 }
 
 .club6 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 2;
@@ -122,9 +144,10 @@ a:hover {
 }
 
 .club7 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 3;
@@ -134,9 +157,10 @@ a:hover {
 }
 
 .club8 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 4;
@@ -146,9 +170,10 @@ a:hover {
 }
 
 .club9 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 1;
@@ -158,9 +183,10 @@ a:hover {
 }
 
 .club10 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 2;
@@ -170,9 +196,10 @@ a:hover {
 }
 
 .club11 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 3;
@@ -182,9 +209,10 @@ a:hover {
 }
 
 .club12 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 4;
@@ -194,9 +222,10 @@ a:hover {
 }
 
 .club13 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 1;
@@ -206,9 +235,10 @@ a:hover {
 }
 
 .club14 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 2;
@@ -218,9 +248,10 @@ a:hover {
 }
 
 .club15 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 3;
@@ -230,9 +261,10 @@ a:hover {
 }
 
 .club16 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 4;
@@ -242,9 +274,10 @@ a:hover {
 }
 
 .club17 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 1;
@@ -254,9 +287,10 @@ a:hover {
 }
 
 .club18 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 2;
@@ -266,9 +300,10 @@ a:hover {
 }
 
 .club19 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 3;
@@ -278,9 +313,10 @@ a:hover {
 }
 
 .club20 {
+  padding-top: 1em;
+  height: 3em;
   text-align: center;
   background-color: #FFFFFF;
-  border: 1px solid black;
   border-radius: 1.5em;
   box-shadow: 0 0 10px grey;
   grid-column-start: 4;
